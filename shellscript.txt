@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Define source and destination directories
+SOURCE="/path/to/source"
+DEST="/path/to/destination"
+
+# Move all files from source to destination
+mv "$SOURCE"/* "$DEST"
+
+echo "✅ Files moved from $SOURCE to $DEST"
+
