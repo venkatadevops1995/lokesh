@@ -15,5 +15,5 @@ PERMISSION=$2
 chmod $PERMISSION $FILE
 
 # Confirm the change
-echo "Permissions for '$FILE' changed to $PERMISSION."
+echo "Permissins for '$FILE' changed to $PERMISSION."
 
