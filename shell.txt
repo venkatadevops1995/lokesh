@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 #!bin/bash
 
  Check if a file and permission code are provided
+=======
+#!/bin/bash
+
+# Check if a file and permission code are provided
+>>>>>>> 365ed8e (my second commit)
 if [ "$#" -ne 2 ]; then
   echo "Usage: $0 filename permission_code"
   echo "Example: $0 myfile.txt 755"
