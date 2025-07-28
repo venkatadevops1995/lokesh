@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Check if a file and permission code are provided
+if [ "$#" -ne 2 ]; then
+  echo "Usage: $0 filename permission_code"
+  echo "Example: $0 myfile.txt 755"
+  exit 1
+fi
+
+# Assign inputs to variables
+FILE=$1
+PERMISSION=$2
+
+# Change the file permission
+chmod $PERMISSION $FILE
+
+# Confirm the change
+echo "Permissions for '$FILE' changed to $PERMISSION."
+
