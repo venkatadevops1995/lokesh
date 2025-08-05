@@ -1,6 +1,6 @@
 #!bin/bash
 
-# Check if a file and permission code are provided
+ Check if a file and permission code are provided
 if [ "$#" -ne 2 ]; then
   echo "Usage: $0 filename permission_code"
   echo "Example: $0 myfile.txt 755"
