@@ -1,0 +1,7 @@
+import time
+
+filename = "report.txt"
+timestamp = time.strftime("%Y%m%d-%H%M%S")
+new_filename = f"{timestamp}_{filename}"
+print(f"New filename: {new_filename}")
+
